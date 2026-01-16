@@ -49,7 +49,8 @@ energy_tech_scout/
 
 ---
 
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
+
 1️⃣ Prerequisites
 
 - Python 3.9 or higher
@@ -72,6 +73,11 @@ Install required packages:
 ---
 
 3️⃣ Configure API Key
+
+Copy the example configuration file and add your API key:
+
+```bash
+cp config.example.py config.py
 
 Edit config.py and add your API key:
 
