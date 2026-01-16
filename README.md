@@ -52,25 +52,22 @@ energy_tech_scout/
 ⚙️ Setup Instructions
 1️⃣ Prerequisites
 
-Python 3.9 or higher
-
-Internet connection
-
-An API key for an LLM provider (e.g., OpenAI)
+- Python 3.9 or higher
+- Internet connection
+- An API key for an LLM provider (e.g., OpenAI)
 
 ---
 
 2️⃣ Install Dependencies
+- (Optional but recommended: use a virtual environment)
 
-(Optional but recommended: use a virtual environment)
-
-python3 -m venv venv
-source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 
 
 Install required packages:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ---
 
@@ -80,13 +77,13 @@ Edit config.py and add your API key:
 
 OPENAI_API_KEY = "YOUR_API_KEY"
 
-You may also customize:
+- You may also customize:
 
-SEARCH_QUERY
+ - SEARCH_QUERY
 
-DAYS_LOOKBACK
+ - DAYS_LOOKBACK
 
-TOP_K
+ - TOP_K
 
 ---
 
@@ -94,7 +91,7 @@ TOP_K
 
 From the project root directory, run:
 
-python3 scout.py
+- python3 scout.py
 
 ---
 
@@ -102,21 +99,14 @@ python3 scout.py
 
 After execution, results are saved in the output/ folder:
 
-report.md – Human-readable innovation report
-
-report.json – Machine-readable structured output
-
-Each entry includes:
-
-Paper title
-
-Authors
-
-Publication date
-
-PDF link
-
-LLM-generated innovation summary
+- report.md – Human-readable innovation report
+- report.json – Machine-readable structured output
+- Each entry includes:
+- Paper title
+- Authors
+- Publication date
+- PDF link
+- LLM-generated innovation summary
 
 ---
 
